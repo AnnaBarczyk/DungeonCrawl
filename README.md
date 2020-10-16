@@ -93,4 +93,4 @@ The tiles used in the game are from [Dungeon Crawl Stone Soup](https://crawl.dev
 shared on [for free use](https://github.com/crawl/tiles).
 
 ## Project status
-completed login but need to be refactored
+Completed, needs refactoring
