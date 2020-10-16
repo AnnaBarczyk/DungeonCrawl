@@ -1,25 +1,8 @@
-# Dungeon Crawl (sprint 1)
-
-## Story
-
-[Roguelikes](https://en.wikipedia.org/wiki/Roguelike) are one of the oldest
-types of video games, the earliest ones were made in the 70s, they were inspired
-a lot by tabletop RPGs. Roguelikes have the following in common usually:
-
-- They are tile-based.
-- The game is divided into turns, e.g. you make one action, then the other
-  entities (monsters, allies, etc. controlled by the CPU) make one.
-- Usually the task is to explore a labyrinth and retrieve some treasure from its
-  bottom.
-- They feature permadeath: if you die its game over, you need to start from the
-  beginning again.
-- Are heavily using procedural generation: Levels, monster placement, items,..
-  are randomized, so the game does not get boring.
-
-Your task will be to create a roguelike! You can deviate from the rules above,
-the important bit is that it should be fun!
-
-## What are you going to learn?
+# Dungeon Crawl
+![img](https://i.imgur.com/d6wjMQV.png)
+![img](https://i.imgur.com/dF0uxxW.png)
+![img](https://i.imgur.com/SXNtqZv.png)
+## Project goals
 
 - Get more practice in OOP
 - Design patterns: layer separation (All of the game logic, i.e., player
@@ -100,40 +83,14 @@ the important bit is that it should be fun!
     - Levels are larger than the game window (for example 3 screens wide and 3 screens tall).
     - When the player moves the player character stays in the center of the view.
 
-
-## General requirements
-
-
-None
-
-## Hints
-
-- Start with the smaller tasks, and then move into the more difficult ones
-- Before making any changes make sure you understand the whole starting code
-
-## Starting repository
-
-Just open the `.csproj` file and run it. Note that the code will only run on
-Windows and OSX.
-
-Follow [this link](https://journey.code.cool/v2/project/team/blueprint/dungeon-crawl-1-csharp/csharp) to create your project repository.
-
-
 ## Background materials
 
-- :open_book: [RogueBasin, a wiki with lots of resources on Roguelike creation](http://roguebasin.com/index.php?title=Articles)
-- :exclamation: [Basics of OOP](https://learn.code.cool/oop-java/#/../pages/oop/basics-of-object-oriented-programming)
-- :exclamation: [How to design classes](https://learn.code.cool/oop-java/#/../pages/csharp/how-to-design-classes)
 - :open_book: [Perlin 2D engine](https://github.com/matyasf/Perlin) You dont need to dwelve into this, most of the GUI is ready.
-
-
-## Acceptance review
-
-You will need this only at review time, **after** completing the project.
-[Use this form](https://forms.gle/k4T6GnuVgfQp8vXd8) to record the review you provide for your peer.
-For now, you can check your (and everyone else's) results in the [summary spreadsheet](https://docs.google.com/spreadsheets/d/1otJkV-zl-Sfg3BWX1ZbFJ_e-GpLf5Jr6oSysZTfpfD4/edit#gid=31463349).
 
 ## References
 
-The tiles used in the game are from [1-Bit Pack by Kenney](https://kenney.nl/assets/bit-pack),
-shared on [CC0 1.0 Universal license](https://creativecommons.org/publicdomain/zero/1.0/).
+The tiles used in the game are from [Dungeon Crawl Stone Soup](https://crawl.develz.org/),
+shared on [for free use](https://github.com/crawl/tiles).
+
+## Project status
+completed login but need to be refactored
